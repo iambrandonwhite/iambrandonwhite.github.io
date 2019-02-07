@@ -244,7 +244,7 @@ input[type=submit] {
 
     footer
     {
-        position: static;
+        position: fixed;
         bottom: 0;
         width: 100%;
     }
@@ -272,7 +272,7 @@ input[type=submit] {
 
     footer
     {
-        position: static;
+        position: fixed;
         bottom: 0;
         width: 100%;;
     }
