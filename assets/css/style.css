@@ -244,9 +244,9 @@ input[type=submit] {
 
     footer
     {
-        position: static;
-        width: 100%;
+        position: fixed;
         bottom: 0;
+        width: 100%;
     }
 
     #masthead, #logo, nav
@@ -266,14 +266,15 @@ input[type=submit] {
 /* Medium Screens*/ 
 @media screen and (min-width: 641px) and (max-width: 768px) {
     main, body, .nav, .bio, .container, #main-container, .main-container, footer
-     {
+    {
         width: 100%;
     }
 
     footer
     {
-        position: static;
+        position: fixed;
         bottom: 0;
+        width: 100%;;
     }
 
     #logo
@@ -303,8 +304,8 @@ input[type=submit] {
     footer
     {
         position: fixed;
-        width: 100%;
         bottom: 0;
+        width: 100%;
     }
 
     #logo, .main-container
